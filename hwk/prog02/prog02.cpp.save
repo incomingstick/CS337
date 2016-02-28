@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Enter a file to spell check: ";
+    string check;
+   
+    cout << "Enter a dictionary to use: ";
+    string wordlst;
+    cin >> wordlst;
+    return 0;
+}
