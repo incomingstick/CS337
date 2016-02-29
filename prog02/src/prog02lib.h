@@ -27,7 +27,7 @@ bool word_search(string word, string dict);
 /// (if, for example, out is an ofstream object not associated
 /// with an open file.)
 /// </summary>
-bool bad_word(string word, int line, ostream& out);
+bool bad_word(string word, int line, ofstream& out);
 
 };
 

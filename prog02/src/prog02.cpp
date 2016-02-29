@@ -17,8 +17,12 @@ int main() {
     string word;
 
     if(stream.is_open()) {
+    	SpellCheck checker;
     	while(stream >> word) {
-
+    		if(!checker.word_search(word, wordlst)) {
+    			//ofstream out();
+    			//checker.bad_word(word, 0, out&);
+    		}
     	}
     	stream.close();
     }
