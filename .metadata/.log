@@ -1,0 +1,29 @@
+!SESSION 2016-02-28 11:40:22.712 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.metadata 1 0 2016-02-28 11:45:37.243
+!MESSAGE No translation source unavailable. Default language will be used.
+!SESSION 2016-02-28 11:46:54.386 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data file:/home/user/OneDrive/Documents/cpp/CS337/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-28 11:47:04.679
+!MESSAGE Indexed 'lab3' (1 sources, 0 headers) in 0.34 sec: 7 declarations; 22 references; 2 unresolved inclusions; 0 syntax errors; 16 unresolved names (36%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-28 11:47:07.737
+!MESSAGE Indexed 'lab5' (1 sources, 118 headers) in 3.03 sec: 9,510 declarations; 16,651 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-28 11:47:09.128
+!MESSAGE Indexed 'prog01' (1 sources, 110 headers) in 1.38 sec: 8,833 declarations; 15,076 references; 0 unresolved inclusions; 0 syntax errors; 4 unresolved names (0.017%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-28 11:48:14.394
+!MESSAGE Indexed 'prog02' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

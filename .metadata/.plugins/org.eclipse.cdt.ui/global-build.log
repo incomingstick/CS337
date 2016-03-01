@@ -1,0 +1,462 @@
+09:32:31 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+09:39:13 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:39:13 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:39:13 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:39:13 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02lib.d" -MT"src/prog02lib.d" -o "src/prog02lib.o" "../src/prog02lib.cpp"
+Finished building: ../src/prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./src/prog02.o ./src/prog02lib.o   
+Finished building target: prog02
+ 
+09:41:36 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:41:36 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:41:36 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:41:36 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+Finished building: ../src/prog02.cpp
+ 
+Building file: ../src/prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02lib.d" -MT"src/prog02lib.d" -o "src/prog02lib.o" "../src/prog02lib.cpp"
+Finished building: ../src/prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./src/prog02.o ./src/prog02lib.o   
+Finished building target: prog02
+ 
+09:42:18 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:18 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:18 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:19 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:15:5: error: 'SpellCheck' was not declared in this scope
+     SpellCheck checker;
+     ^
+make: *** [src/prog02.o] Error 1
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+09:45:12 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:45:12 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:45:12 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:45:12 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:15:16: warning: unused variable 'checker' [-Wunused-variable]
+     SpellCheck checker;
+                ^
+Finished building: ../src/prog02.cpp
+ 
+Building file: ../src/prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02lib.d" -MT"src/prog02lib.d" -o "src/prog02lib.o" "../src/prog02lib.cpp"
+Finished building: ../src/prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./src/prog02.o ./src/prog02lib.o   
+Finished building target: prog02
+ 
+09:46:09 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:46:09 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:46:09 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:46:09 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:15:16: warning: unused variable 'checker' [-Wunused-variable]
+     SpellCheck checker;
+                ^
+Finished building: ../src/prog02.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./src/prog02.o ./src/prog02lib.o   
+Finished building target: prog02
+ 
+09:50:03 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:50:03 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:50:03 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:50:03 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+Finished building: ../src/prog02.cpp
+ 
+Building file: ../src/prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02lib.d" -MT"src/prog02lib.d" -o "src/prog02lib.o" "../src/prog02lib.cpp"
+Finished building: ../src/prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./src/prog02.o ./src/prog02lib.o   
+Finished building target: prog02
+ 
+09:56:34 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:35 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:35 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:56:35 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:23:34: error: 'null' was not declared in this scope
+        checker.bad_word(word, 0, null);
+                                  ^
+make: *** [src/prog02.o] Error 1
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+09:57:09 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:09 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:09 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:57:09 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp:23:8: warning: identifier 'nullptr' is a keyword in C++11 [-Wc++0x-compat]
+        checker.bad_word(word, 0, nullptr);
+        ^
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:23:34: error: 'nullptr' was not declared in this scope
+        checker.bad_word(word, 0, nullptr);
+                                  ^
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+make: *** [src/prog02.o] Error 1
+10:01:00 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:00 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:00 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:00 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+In file included from /usr/include/c++/5.3.0/iostream:39:0,
+                 from ../src/prog02.h:4,
+                 from ../src/prog02.cpp:1:
+/usr/include/c++/5.3.0/ostream: In function 'int main()':
+/usr/include/c++/5.3.0/ostream:384:7: error: 'std::basic_ostream<_CharT, _Traits>::basic_ostream() [with _CharT = char; _Traits = std::char_traits<char>]' is protected
+       basic_ostream()
+       ^
+../src/prog02.cpp:23:16: error: within this context
+        ostream out;
+                ^
+../src/prog02.cpp:24:34: error: 'out' was not declared in this scope
+        checker.bad_word(word, 0, out&);
+                                  ^
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+make: *** [src/prog02.o] Error 1
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+10:01:06 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:06 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:06 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:06 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+In file included from /usr/include/c++/5.3.0/iostream:39:0,
+                 from ../src/prog02.h:4,
+                 from ../src/prog02.cpp:1:
+/usr/include/c++/5.3.0/ostream: In function 'int main()':
+/usr/include/c++/5.3.0/ostream:384:7: error: 'std::basic_ostream<_CharT, _Traits>::basic_ostream() [with _CharT = char; _Traits = std::char_traits<char>]' is protected
+       basic_ostream()
+       ^
+../src/prog02.cpp:23:16: error: within this context
+        ostream out;
+                ^
+../src/prog02.cpp:24:34: error: 'out' was not declared in this scope
+        checker.bad_word(word, 0, out&);
+                                  ^
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+make: *** [src/prog02.o] Error 1
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+10:01:34 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:34 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:34 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:35 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:23:21: error: 'fb' was not declared in this scope
+        ostream out(&fb);
+                     ^
+../src/prog02.cpp:24:34: error: 'out' was not declared in this scope
+        checker.bad_word(word, 0, out&);
+                                  ^
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+make: *** [src/prog02.o] Error 1
+10:01:56 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:56 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:56 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:01:56 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:23:19: error: expected initializer before '&' token
+        ostream out&;
+                   ^
+../src/prog02.cpp:24:34: error: 'out' was not declared in this scope
+        checker.bad_word(word, 0, out&);
+                                  ^
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+make: *** [src/prog02.o] Error 1
+10:02:25 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:02:25 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:02:25 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:02:25 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:24:34: error: 'out' was not declared in this scope
+        checker.bad_word(word, 0, out&);
+                                  ^
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+make: *** [src/prog02.o] Error 1
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+10:02:44 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:02:44 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:02:44 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:02:44 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:24:34: error: 'out' was not declared in this scope
+        checker.bad_word(word, 0, out&);
+                                  ^
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+make: *** [src/prog02.o] Error 1
+10:03:15 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:03:16 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:03:16 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:03:16 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+make: *** [src/prog02.o] Error 1
+10:03:37 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:03:37 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:03:37 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:03:37 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+make: *** [src/prog02.o] Error 1
+10:06:06 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:06:06 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:06:07 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:06:07 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+make: *** [src/prog02.o] Error 1
+10:06:19 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:06:19 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:06:19 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:06:19 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+../src/prog02.cpp: In function 'int main()':
+../src/prog02.cpp:24:38: error: expected primary-expression before ')' token
+        checker.bad_word(word, 0, out&);
+                                      ^
+src/subdir.mk:21: recipe for target 'src/prog02.o' failed
+make: *** [src/prog02.o] Error 1
+10:07:28 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+10:07:28 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+10:07:28 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+10:07:28 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../src/prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
+Finished building: ../src/prog02.cpp
+ 
+Building file: ../src/prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02lib.d" -MT"src/prog02lib.d" -o "src/prog02lib.o" "../src/prog02lib.cpp"
+Finished building: ../src/prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./src/prog02.o ./src/prog02lib.o   
+Finished building target: prog02
+ 
