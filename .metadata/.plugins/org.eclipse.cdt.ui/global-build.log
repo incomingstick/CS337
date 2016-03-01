@@ -569,3 +569,89 @@ make: Nothing to be done for 'all'.
 14:24:40 **** Incremental Build of configuration Debug for project prog02 ****
 make all 
 make: Nothing to be done for 'all'.
+15:15:31 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:31 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:31 **** Build of configuration Debug for project lab6 ****
+make all 
+Building file: ../lab6.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab6.d" -MT"lab6.d" -o "lab6.o" "../lab6.cpp"
+Finished building: ../lab6.cpp
+ 
+Building target: lab6
+Invoking: GCC C++ Linker
+g++  -o "lab6"  ./lab6.o   
+Finished building target: lab6
+ 
+15:15:31 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:31 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+Finished building: ../prog02.cpp
+ 
+Building file: ../prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02lib.d" -MT"prog02lib.d" -o "prog02lib.o" "../prog02lib.cpp"
+Finished building: ../prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+15:15:41 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:41 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:41 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:41 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:41 **** Clean-only build of configuration Debug for project prog02 ****
+make clean 
+rm -rf  ./prog02.o ./prog02lib.o  ./prog02.d ./prog02lib.d  prog02
+ 
+15:15:42 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+Finished building: ../prog02.cpp
+ 
+Building file: ../prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02lib.d" -MT"prog02lib.d" -o "prog02lib.o" "../prog02lib.cpp"
+Finished building: ../prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+15:15:46 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:46 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:46 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:47 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:15:47 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.

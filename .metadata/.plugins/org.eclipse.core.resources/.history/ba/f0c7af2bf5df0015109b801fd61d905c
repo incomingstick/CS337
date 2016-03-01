@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
 		return 0;
 	}
 	char* temp;
-	for(int i = 1; i < argc; i++) {
+	for(int i = 1; i < argc - 1; i++) {
 		for(int j = i; j > 0 && strcmp(argv[j], argv[j-1]) < 0; j--) {
 			temp = argv[j];
 			argv[j] = argv[j-1];

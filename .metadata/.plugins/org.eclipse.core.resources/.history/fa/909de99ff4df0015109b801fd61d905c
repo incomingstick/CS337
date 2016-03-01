@@ -11,11 +11,13 @@ int main(int argc, char* argv[]) {
 		return 0;
 	}
 	char* temp;
-	for(int i = 1; i < argc; i++) {
-		for(int j = i; j > 0 && strcmp(argv[j], argv[j-1]) < 0; j--) {
+	for(int i = 1; i < argc - 1; i++) {
+		int j = i;
+		while (j > 0 && strcmp(argv[j], argv[j-1]) < 0) {
 			temp = argv[j];
 			argv[j] = argv[j-1];
 			argv[j-1] = temp;
+			j--;
 		}
 	}
 	for(int i = 1; i < argc; i++) {
