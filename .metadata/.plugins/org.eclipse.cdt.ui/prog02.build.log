@@ -1,20 +1,6 @@
-10:07:28 **** Incremental Build of configuration Debug for project prog02 ****
+14:24:40 **** Incremental Build of configuration Debug for project prog02 ****
 make all 
-Building file: ../src/prog02.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02.d" -MT"src/prog02.d" -o "src/prog02.o" "../src/prog02.cpp"
-Finished building: ../src/prog02.cpp
- 
-Building file: ../src/prog02lib.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prog02lib.d" -MT"src/prog02lib.d" -o "src/prog02lib.o" "../src/prog02lib.cpp"
-Finished building: ../src/prog02lib.cpp
- 
-Building target: prog02
-Invoking: GCC C++ Linker
-g++  -o "prog02"  ./src/prog02.o ./src/prog02lib.o   
-Finished building target: prog02
- 
+make: Nothing to be done for 'all'.
 
-10:07:29 Build Finished (took 459ms)
+14:24:40 Build Finished (took 60ms)
 

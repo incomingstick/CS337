@@ -37,3 +37,9 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.cdt.core 1 0 2016-03-01 14:10:18.729
 !MESSAGE Indexed 'prog02' (2 sources, 120 headers) in 2.71 sec: 9,528 declarations; 16,680 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0076%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-01 14:13:38.396
+!MESSAGE Indexed 'lab6' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-01 14:32:01.749
+!MESSAGE Indexed 'lab6' (1 sources, 106 headers) in 0.992 sec: 8,668 declarations; 14,900 references; 0 unresolved inclusions; 0 syntax errors; 2 unresolved names (0.0085%)

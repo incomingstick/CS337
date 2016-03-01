@@ -5,12 +5,20 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/user/OneDrive/Documents/cpp/CS337/lab/lab6"/>
+			<item value="/home/user/OneDrive/Documents/cpp/CS337/hwk/prog02"/>
 			<item value="/home/user/OneDrive/Documents/cpp/CS337/lab/lab5"/>
 			<item value="/home/user/OneDrive/Documents/cpp/CS337/lab/lab3"/>
 			<item value="/home/user/OneDrive/Documents/cpp/CS337/hwk/prog01"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.cdt.ui.wizards.NewCWizard1" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.cdt.ui.newCWizards"/>
 		</list>
 	</section>
 </section>

@@ -460,3 +460,112 @@ Invoking: GCC C++ Linker
 g++  -o "prog02"  ./src/prog02.o ./src/prog02lib.o   
 Finished building target: prog02
  
+14:20:18 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:18 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:18 **** Build of configuration Debug for project lab6 ****
+make all 
+Building file: ../lab6.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab6.d" -MT"lab6.d" -o "lab6.o" "../lab6.cpp"
+../lab6.cpp: In function 'int main(int, char**)':
+../lab6.cpp:4:27: error: request for member 'size' in '* argv', which is of non-class type 'char*'
+  for(int i = 0; i < argv->size; i++) {
+                           ^
+make: *** [lab6.o] Error 1
+subdir.mk:18: recipe for target 'lab6.o' failed
+14:20:19 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:19 **** Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:49 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:49 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:49 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+Building file: ../lab6.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab6.d" -MT"lab6.d" -o "lab6.o" "../lab6.cpp"
+Finished building: ../lab6.cpp
+ 
+Building target: lab6
+Invoking: GCC C++ Linker
+g++  -o "lab6"  ./lab6.o   
+Finished building target: lab6
+ 
+14:20:50 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+14:20:50 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+14:23:21 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:23:21 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+14:23:21 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+Building file: ../lab6.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab6.d" -MT"lab6.d" -o "lab6.o" "../lab6.cpp"
+../lab6.cpp: In function 'int main(int, char**)':
+../lab6.cpp:8:31: error: 'strcmp' was not declared in this scope
+   if(strcmp(argv[i], argv[i+1]) > 1) {
+                               ^
+make: *** [lab6.o] Error 1
+subdir.mk:18: recipe for target 'lab6.o' failed
+14:23:22 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+14:23:22 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+14:23:44 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:23:44 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+14:23:44 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+Building file: ../lab6.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab6.d" -MT"lab6.d" -o "lab6.o" "../lab6.cpp"
+Finished building: ../lab6.cpp
+ 
+Building target: lab6
+Invoking: GCC C++ Linker
+g++  -o "lab6"  ./lab6.o   
+Finished building target: lab6
+ 
+14:23:44 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+14:23:45 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+14:24:40 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:24:40 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+14:24:40 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+14:24:40 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+14:24:40 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
