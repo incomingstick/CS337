@@ -1,0 +1,37 @@
+#include "prog02.h"
+#include "prog02lib.h"
+
+int main() {
+    // gets file to check
+    cout << "Enter a file to spell check: ";
+    string file;
+    cin >> file;
+
+    // gets wordlist dictionary to check against
+    cout << "Enter a dictionary to use: ";
+    string wordlst;
+    cin >> wordlst;
+
+    // open stream to read file
+    ifstream stream (file.c_str());
+    string word;
+
+    if(stream.is_open()) {
+    	SpellCheck checker;
+    	string line;
+    	int lineNumber = 0;
+    	ofstream out;
+    	while(getline(stream, line)) {
+    		istringstream ln(line);
+    		while(ln >> word) {
+    			if(!checker.word_search(word, wordlst))
+    				if(!checker.bad_word(word, line, out))
+    					cout << "Stream to" << out << "unexpectedly closed.";
+    		}
+    		lineNumber++;
+    	}
+    	stream.close();
+    }
+
+    return 0;
+}

@@ -655,3 +655,711 @@ make: Nothing to be done for 'all'.
 15:15:47 **** Incremental Build of configuration Debug for project prog02 ****
 make all 
 make: Nothing to be done for 'all'.
+15:39:46 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:39:46 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:39:46 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+Building file: ../lab6.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"lab6.d" -MT"lab6.d" -o "lab6.o" "../lab6.cpp"
+Finished building: ../lab6.cpp
+ 
+Building target: lab6
+Invoking: GCC C++ Linker
+g++  -o "lab6"  ./lab6.o   
+Finished building target: lab6
+ 
+15:39:47 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:39:47 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+15:40:48 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:40:48 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:40:48 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:40:48 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+Building file: ../src/hwk1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hwk1.d" -MT"src/hwk1.d" -o "src/hwk1.o" "../src/hwk1.cpp"
+Finished building: ../src/hwk1.cpp
+ 
+Building target: prog01
+Invoking: GCC C++ Linker
+g++  -o "prog01"  ./src/hwk1.o   
+Finished building target: prog01
+ 
+15:40:48 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:01 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:01 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:01 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:01 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:02 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:22:32: error: no matching function for call to 'getline(std::ifstream&, int&)'
+      while(getline(stream, line)) {
+                                ^
+In file included from /usr/include/c++/5.3.0/cstdio:42:0,
+                 from /usr/include/c++/5.3.0/fstream:41,
+                 from ../prog02.h:5,
+                 from ../prog02.cpp:1:
+/usr/include/stdio.h:678:20: note: candidate: __ssize_t getline(char**, size_t*, FILE*)
+ extern _IO_ssize_t getline (char **__restrict __lineptr,
+                    ^
+/usr/include/stdio.h:678:20: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/c++/5.3.0/string:52:0,
+                 from /usr/include/c++/5.3.0/bits/locale_classes.h:40,
+                 from /usr/include/c++/5.3.0/bits/ios_base.h:41,
+                 from /usr/include/c++/5.3.0/ios:42,
+                 from /usr/include/c++/5.3.0/ostream:38,
+                 from /usr/include/c++/5.3.0/iostream:39,
+                 from ../prog02.h:4,
+                 from ../prog02.cpp:1:
+/usr/include/c++/5.3.0/bits/basic_string.h:5212:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     getline(basic_istream<_CharT, _Traits>& __is,
+     ^
+/usr/include/c++/5.3.0/bits/basic_string.h:5212:5: note:   template argument deduction/substitution failed:
+../prog02.cpp:22:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+      while(getline(stream, line)) {
+                                ^
+In file included from /usr/include/c++/5.3.0/string:53:0,
+                 from /usr/include/c++/5.3.0/bits/locale_classes.h:40,
+                 from /usr/include/c++/5.3.0/bits/ios_base.h:41,
+                 from /usr/include/c++/5.3.0/ios:42,
+subdir.mk:21: recipe for target 'prog02.o' failed
+                 from /usr/include/c++/5.3.0/ostream:38,
+                 from /usr/include/c++/5.3.0/iostream:39,
+                 from ../prog02.h:4,
+                 from ../prog02.cpp:1:
+/usr/include/c++/5.3.0/bits/basic_string.tcc:1513:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     getline(basic_istream<_CharT, _Traits>& __in,
+     ^
+/usr/include/c++/5.3.0/bits/basic_string.tcc:1513:5: note:   template argument deduction/substitution failed:
+../prog02.cpp:22:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+      while(getline(stream, line)) {
+                                ^
+make: *** [prog02.o] Error 1
+15:42:31 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:31 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:31 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:31 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:42:32 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:22:32: error: no matching function for call to 'getline(std::ifstream&, int&)'
+      while(getline(stream, line)) {
+                                ^
+In file included from /usr/include/c++/5.3.0/cstdio:42:0,
+                 from /usr/include/c++/5.3.0/fstream:41,
+                 from ../prog02.h:5,
+                 from ../prog02.cpp:1:
+/usr/include/stdio.h:678:20: note: candidate: __ssize_t getline(char**, size_t*, FILE*)
+ extern _IO_ssize_t getline (char **__restrict __lineptr,
+                    ^
+/usr/include/stdio.h:678:20: note:   candidate expects 3 arguments, 2 provided
+In file included from /usr/include/c++/5.3.0/string:52:0,
+                 from /usr/include/c++/5.3.0/bits/locale_classes.h:40,
+                 from /usr/include/c++/5.3.0/bits/ios_base.h:41,
+                 from /usr/include/c++/5.3.0/ios:42,
+                 from /usr/include/c++/5.3.0/ostream:38,
+                 from /usr/include/c++/5.3.0/iostream:39,
+                 from ../prog02.h:4,
+                 from ../prog02.cpp:1:
+/usr/include/c++/5.3.0/bits/basic_string.h:5212:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     getline(basic_istream<_CharT, _Traits>& __is,
+     ^
+/usr/include/c++/5.3.0/bits/basic_string.h:5212:5: note:   template argument deduction/substitution failed:
+../prog02.cpp:22:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+      while(getline(stream, line)) {
+                                ^
+In file included from /usr/include/c++/5.3.0/string:53:0,
+                 from /usr/include/c++/5.3.0/bits/locale_classes.h:40,
+                 from /usr/include/c++/5.3.0/bits/ios_base.h:41,
+                 from /usr/include/c++/5.3.0/ios:42,
+                 from /usr/include/c++/5.3.0/ostream:38,
+                 from /usr/include/c++/5.3.0/iostream:39,
+                 from ../prog02.h:4,
+                 from ../prog02.cpp:1:
+/usr/include/c++/5.3.0/bits/basic_string.tcc:1513:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     getline(basic_istream<_CharT, _Traits>& __in,
+     ^
+/usr/include/c++/5.3.0/bits/basic_string.tcc:1513:5: note:   template argument deduction/substitution failed:
+../prog02.cpp:22:32: note:   mismatched types 'std::__cxx11::basic_string<_CharT, _Traits, _Alloc>' and 'int'
+      while(getline(stream, line)) {
+                                ^
+subdir.mk:21: recipe for target 'prog02.o' failed
+make: *** [prog02.o] Error 1
+15:44:34 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:34 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:34 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:34 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:34 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:23:6: error: expected ',' or ';' before 'while'
+      while(getline(stream, line)) {
+      ^
+../prog02.cpp:20:17: warning: unused variable 'checker' [-Wunused-variable]
+      SpellCheck checker;
+                 ^
+../prog02.cpp:22:10: warning: unused variable 'linenumber' [-Wunused-variable]
+      int linenumber = 0
+          ^
+make: *** [prog02.o] Error 1
+subdir.mk:21: recipe for target 'prog02.o' failed
+15:44:51 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:51 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:51 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:51 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:44:52 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:24:20: error: 'search' was not declared in this scope
+       if(line.find(search) != string::npos)
+                    ^
+../prog02.cpp:25:47: error: 'lineNumber' was not declared in this scope
+        cout << search << " found at line " << lineNumber << endl;
+                                               ^
+../prog02.cpp:26:8: error: 'lineNumber' was not declared in this scope
+        lineNumber++;
+        ^
+../prog02.cpp:20:17: warning: unused variable 'checker' [-Wunused-variable]
+      SpellCheck checker;
+                 ^
+../prog02.cpp:22:10: warning: unused variable 'linenumber' [-Wunused-variable]
+      int linenumber = 0;
+          ^
+subdir.mk:21: recipe for target 'prog02.o' failed
+make: *** [prog02.o] Error 1
+15:45:00 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:00 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:00 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:00 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:00 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:24:20: error: 'search' was not declared in this scope
+       if(line.find(search) != string::npos)
+                    ^
+../prog02.cpp:25:47: error: 'lineNumber' was not declared in this scope
+        cout << search << " found at line " << lineNumber << endl;
+                                               ^
+../prog02.cpp:26:7: error: 'lineNumber' was not declared in this scope
+       lineNumber++;
+       ^
+../prog02.cpp:20:17: warning: unused variable 'checker' [-Wunused-variable]
+      SpellCheck checker;
+                 ^
+../prog02.cpp:22:10: warning: unused variable 'linenumber' [-Wunused-variable]
+      int linenumber = 0;
+          ^
+make: *** [prog02.o] Error 1
+subdir.mk:21: recipe for target 'prog02.o' failed
+15:45:17 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:17 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:17 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:17 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:17 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:20:17: warning: unused variable 'checker' [-Wunused-variable]
+      SpellCheck checker;
+                 ^
+Finished building: ../prog02.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+15:48:27 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+15:48:27 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+15:48:27 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+15:48:27 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+15:48:27 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:24:7: error: 'isstringsteam' was not declared in this scope
+       isstringsteam ln(line);
+       ^
+subdir.mk:21: recipe for target 'prog02.o' failed
+make: *** [prog02.o] Error 1
+17:09:17 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:17 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:17 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:17 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:17 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:28:45: error: no matching function for call to 'SpellCheck::bad_word(std::__cxx11::string&, std::__cxx11::string&, std::ofstream&)'
+         if(!checker.bad_word(word, line, out))
+                                             ^
+In file included from ../prog02.cpp:2:0:
+../prog02lib.h:30:6: note: candidate: bool SpellCheck::bad_word(std::__cxx11::string, int, std::ofstream&)
+ bool bad_word(string word, int line, ofstream& out);
+      ^
+../prog02lib.h:30:6: note:   no known conversion for argument 2 from 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}' to 'int'
+subdir.mk:21: recipe for target 'prog02.o' failed
+make: *** [prog02.o] Error 1
+17:09:57 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:57 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:57 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:57 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:57 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+Finished building: ../prog02.cpp
+ 
+Building file: ../prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02lib.d" -MT"prog02lib.d" -o "prog02lib.o" "../prog02lib.cpp"
+Finished building: ../prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+17:15:53 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:15:54 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:15:54 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:15:54 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:15:54 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+Finished building: ../prog02.cpp
+ 
+Building file: ../prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02lib.d" -MT"prog02lib.d" -o "prog02lib.o" "../prog02lib.cpp"
+Finished building: ../prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+17:15:58 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:28 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:28 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:28 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:28 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:38:28 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+Finished building: ../prog02.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+17:39:02 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:18 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:23:23: error: invalid user-defined conversion from 'std::ostream {aka std::basic_ostream<char>}' to 'const char*' [-fpermissive]
+      ofstream out(cout);
+                       ^
+In file included from /usr/include/c++/5.3.0/ios:44:0,
+                 from /usr/include/c++/5.3.0/ostream:38,
+                 from /usr/include/c++/5.3.0/iostream:39,
+                 from ../prog02.h:4,
+                 from ../prog02.cpp:1:
+/usr/include/c++/5.3.0/bits/basic_ios.h:120:7: note: candidate is: std::basic_ios<_CharT, _Traits>::operator void*() const [with _CharT = char; _Traits = std::char_traits<char>] <near match>
+       operator void*() const
+       ^
+/usr/include/c++/5.3.0/bits/basic_ios.h:120:7: note:   no known conversion from 'void*' to 'const char*'
+In file included from ../prog02.h:5:0,
+                 from ../prog02.cpp:1:
+/usr/include/c++/5.3.0/fstream:697:7: note:   initializing argument 1 of 'std::basic_ofstream<_CharT, _Traits>::basic_ofstream(const char*, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::ios_base::openmode = std::_Ios_Openmode]'
+       basic_ofstream(const char* __s,
+       ^
+make: *** [prog02.o] Error 1
+subdir.mk:21: recipe for target 'prog02.o' failed
+17:40:26 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:26 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:26 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:26 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:27 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+../prog02.cpp: In function 'int main()':
+../prog02.cpp:23:23: error: invalid user-defined conversion from 'std::ostream {aka std::basic_ostream<char>}' to 'const char*' [-fpermissive]
+      ofstream out(cout);
+                       ^
+In file included from /usr/include/c++/5.3.0/ios:44:0,
+                 from /usr/include/c++/5.3.0/ostream:38,
+                 from /usr/include/c++/5.3.0/iostream:39,
+                 from ../prog02.h:4,
+                 from ../prog02.cpp:1:
+/usr/include/c++/5.3.0/bits/basic_ios.h:120:7: note: candidate is: std::basic_ios<_CharT, _Traits>::operator void*() const [with _CharT = char; _Traits = std::char_traits<char>] <near match>
+       operator void*() const
+       ^
+/usr/include/c++/5.3.0/bits/basic_ios.h:120:7: note:   no known conversion from 'void*' to 'const char*'
+In file included from ../prog02.h:5:0,
+                 from ../prog02.cpp:1:
+/usr/include/c++/5.3.0/fstream:697:7: note:   initializing argument 1 of 'std::basic_ofstream<_CharT, _Traits>::basic_ofstream(const char*, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::ios_base::openmode = std::_Ios_Openmode]'
+       basic_ofstream(const char* __s,
+       ^
+make: *** [prog02.o] Error 1
+subdir.mk:21: recipe for target 'prog02.o' failed
+17:40:49 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:49 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:49 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:49 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:40:49 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+Finished building: ../prog02.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+17:41:14 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:14 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:14 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:15 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:15 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:41:21 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:43:30 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:43:30 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:43:30 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:43:30 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:43:31 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:44 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:44 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:44 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:44 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:44 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:48 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:45:11 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:45:11 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:45:11 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:45:11 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:45:11 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:45:13 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:46:31 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:46:31 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:46:31 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:46:31 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:46:31 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02lib.d" -MT"prog02lib.d" -o "prog02lib.o" "../prog02lib.cpp"
+Finished building: ../prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+17:46:50 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:08 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:08 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:08 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:08 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:08 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+Finished building: ../prog02.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+17:48:14 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:40 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:08 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:08 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:09 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:09 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:09 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:13 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:52 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.
+18:02:03 **** Incremental Build of configuration Debug for project lab3 ****
+make all 
+make: Nothing to be done for 'all'.
+18:02:03 **** Incremental Build of configuration Debug for project lab5 ****
+make all 
+make: Nothing to be done for 'all'.
+18:02:03 **** Incremental Build of configuration Debug for project lab6 ****
+make all 
+make: Nothing to be done for 'all'.
+18:02:03 **** Incremental Build of configuration Debug for project prog01 ****
+make all 
+make: Nothing to be done for 'all'.
+18:02:03 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+Building file: ../prog02.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02.d" -MT"prog02.d" -o "prog02.o" "../prog02.cpp"
+Finished building: ../prog02.cpp
+ 
+Building file: ../prog02lib.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"prog02lib.d" -MT"prog02lib.d" -o "prog02lib.o" "../prog02lib.cpp"
+../prog02lib.cpp: In member function 'bool SpellCheck::word_search(std::__cxx11::string, std::__cxx11::string)':
+../prog02lib.cpp:11:26: warning: range-based 'for' loops only available with -std=c++11 or -std=gnu++11
+        for(char& alpha : word)
+                          ^
+../prog02lib.cpp:12:20: warning: 'alpha' may be used uninitialized in this function [-Wmaybe-uninitialized]
+         if(!isalpha(alpha))
+                    ^
+Finished building: ../prog02lib.cpp
+ 
+Building target: prog02
+Invoking: GCC C++ Linker
+g++  -o "prog02"  ./prog02.o ./prog02lib.o   
+Finished building target: prog02
+ 
+18:02:08 **** Incremental Build of configuration Debug for project prog02 ****
+make all 
+make: Nothing to be done for 'all'.

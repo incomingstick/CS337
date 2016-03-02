@@ -18,14 +18,24 @@ int main() {
 
     if(stream.is_open()) {
     	SpellCheck checker;
-    	while(stream >> word) {
-    		if(!checker.word_search(word, wordlst)) {
-    			//ofstream out();
-    			//checker.bad_word(word, 0, out&);
+    	string line;
+    	int lineNumber = 0;
+    	ofstream out ("out.txt");
+    	while(getline(stream, line)) {
+    		istringstream ln(line);
+    		while(ln >> word) {
+    			if(!checker.word_search(word, wordlst))
+    				if(!checker.bad_word(word, lineNumber, out))
+    					cout << "Stream to out.txt unexpectedly closed.";
     		}
+    		lineNumber++;
     	}
+    	cout << "it worked??" << endl;
+    	out.close();
     	stream.close();
     }
-
+    else {
+    	cout << "Unable to open " << file << endl;
+    }
     return 0;
 }

@@ -30,7 +30,7 @@ void read() {
 	cout << "Enter the cypher text (<Enter><Ctrl>-D to end): ";
 	string text;
 	cin >> text;
-	for(char letter : text.c_str()) {
-
-	}
+	//for(char letter : text.c_str()) {
+	//
+	//}
 }

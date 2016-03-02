@@ -1,0 +1,59 @@
+Description                                                                                                                         
+Write a spell checking program which uses a dictionary file to find 
+misspelled words in a text document. Your program should prompt the user 
+for the name of the input file and the name of the dictionary file. A 
+valid dictionary file contains an alphabetized list of words, one word 
+per line. A sample dictionary file is located in D2L.
+
+Functional requirements:
+
+For each word in the input file, your program should search the 
+dictionary file for the given word. If the word is not in the 
+dictionary, you program should print the message "Unknown word <word> 
+found in line <line #> of the input file" to standard output. Hence you 
+will need to read the text file one line at a time. You may find it 
+helpful to use the getline function from the <string> library, and also 
+the stringstream class from <sstream>. A stringstream object is a stream 
+that has a string as its source rather than a file. You can read more 
+about stringstreams at 
+http://www.cplusplus.com/ref/iostream/stringstream/.
+After traversing the entire text file, your program should print a 
+message describing the total number of misspelled words in the file.
+A dictionary file may contain words in uppercase, lowercase, or a 
+mixture of both. You program should recognize words regardless of case. 
+So if "dog" is in the dictionary file, the word "dOG" should be 
+recognized as a valid word.
+Within a line, a word is a white-space delimited string of characters. 
+Any number of sequential non-alphabetic characters at the end of a word 
+should be ignored. So "dog12" and "Dog!" are valid words (assuming the 
+dictionary contains "dog") but "do-g" or "d.o.g." are not. You may find 
+that the isalpha function from <ctype.h> makes this easier. Read more 
+about isalpha here: http://www.cppreference.com/stdstring/isalpha.html.
+ 
+Implementation requirements:
+
+Implement and use a function bool word_search(string word, string dict), 
+which returns true if the word word is found in the dictionary file 
+named dict. When word_search is called is must open the dict file using 
+a local ifstream variable, and it must close the file before it returns. 
+The function returns false if the word is not found or if the dictionary 
+file is not valid.
+Implement and use a function bool bad_word(string word, int line, 
+ostream& out) which prints the error message "Unknown word word found in 
+line line of the input file" to the specified stream. The function 
+returns true if the message is printed successfully, false if there is a 
+problem (if, for example, out is an ofstream object not associated with 
+an open file.)
+You must put the functions above, and any other functions you write 
+other than main, into prog02lib.cpp, while main goes in to prog02.cpp. 
+Both .cpp files should have associatede .h files, and you should create 
+a makefile that uses separate compilation to build prog02.exe from your 
+source code.
+Submitting your program
+
+You submit your program using the dropbox feature of Desire2Learn. The 
+D2L dropbox will allow you to upload your program's source code file 
+using a Web browser. For this assignment, your program's source code and 
+make file must be saved in a directory called prog02, and a zipped or 
+tarred archive of this directory should be submitted to the Program 2 
+dropbox.
