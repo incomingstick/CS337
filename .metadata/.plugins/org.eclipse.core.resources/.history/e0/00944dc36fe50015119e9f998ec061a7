@@ -1,0 +1,36 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 8, 2016
+ *      Author: Nick Gaulke
+ */
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main(int argc, char* argv[]) {
+	// gets the double from the user
+	cout << "Enter a double: ";
+	double input;
+	cin >> input;
+
+	// print the sign of the value
+	if(input < 0)
+		cout << "Sign: -" << endl;
+	else
+		cout << "Sign: +" << endl;
+
+
+	// convert it to long for use of bitwise operators
+	unsigned long number;
+	memcpy(&number, &input, sizeof(number));
+
+	//
+	unsigned long exp = number & 01111111111100000000000000000000000000000000000000000000000000000;
+	exp >>= 52;
+	cout << "Exponent: " << hex << exp << endl;
+
+	unsigned long mant;
+	return 0;
+}
