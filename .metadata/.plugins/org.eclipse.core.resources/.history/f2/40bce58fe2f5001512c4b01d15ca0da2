@@ -1,0 +1,16 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 29, 2016
+ *      Author: nfgaulke
+ */
+#include <sys/stat.h>
+#include <pwd.h>
+#include <dirent.h>
+
+
+int main(int argc, char* argv[]) {
+	struct stat fileInfo;
+	stat(argv[1], fileInfo);
+	return 0;
+}

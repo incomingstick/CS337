@@ -1,0 +1,43 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Mar 29, 2016
+ *      Author: nfgaulke
+ */
+#include <sys/stat.h>
+#include <pwd.h>
+#include <dirent.h>
+#include <unistd.h>
+#include <string>
+
+int main(int argc, char* argv[]) {
+	for(int i = 1; i < argc; i++) {
+		string output;
+		// get stats of the file
+		struct stat fileInfo;
+
+		// checks if file can be opened
+		if(stat(argv[i], &fileInfo) == -1) {
+			printf("Error: File not found.");
+			return -1;
+		}
+
+		// this will be used to get the user name
+		struct passwd passInfo;
+		passInfo = *getpwuid(fileInfo.st_uid);
+
+		// checks if file is file or dir
+		if(S_ISREG(fileInfo.st_mode)) {
+
+		}
+		else {
+			DIR* dir;
+			dir = opendir(argv[i])
+			int files = 0;
+			while(readdir(dir))
+				files++;
+		}
+		write(1, output.c_string(), output.length());
+	}
+	return 0;
+}
