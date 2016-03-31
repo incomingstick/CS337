@@ -38,7 +38,6 @@ int main(int argc, char* argv[]) {
 
 		// checks if file is file or dir
 		if(S_ISREG(fileInfo.st_mode)) {
-			output += "-";
 			output += get_perm((fileInfo.st_mode % 01000) / 0100);
 			output += get_perm((fileInfo.st_mode % 01000) / 010);
 			output += get_perm(fileInfo.st_mode % 01000) + " ";
@@ -46,10 +45,8 @@ int main(int argc, char* argv[]) {
 			output += " ";
 			output += passInfo.pw_name;
 			output += " ";
-			string size;
-			ss << fileInfo.st_size;
-			ss >> size;
-			output += size;
+			ss << output << fileInfo.st_size;
+			ss >> output;
 		}
 		else {
 			output += "d";
@@ -68,10 +65,8 @@ int main(int argc, char* argv[]) {
 			while(readdir(dir))
 				files++;
 
-			string size;
-			ss << files;
-			ss >> size;
-			output += size;
+			ss << output << files;
+			ss >> output;
 		}
 		output += "\n";
 		write(1, output.c_str(), output.length());

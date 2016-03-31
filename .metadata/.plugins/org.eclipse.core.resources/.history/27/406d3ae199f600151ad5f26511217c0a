@@ -38,7 +38,6 @@ int main(int argc, char* argv[]) {
 
 		// checks if file is file or dir
 		if(S_ISREG(fileInfo.st_mode)) {
-			output += "-";
 			output += get_perm((fileInfo.st_mode % 01000) / 0100);
 			output += get_perm((fileInfo.st_mode % 01000) / 010);
 			output += get_perm(fileInfo.st_mode % 01000) + " ";
