@@ -1,15 +1,6 @@
-12:07:29 **** Incremental Build of configuration Debug for project lab9 ****
+15:31:38 **** Incremental Build of configuration Debug for project lab9 ****
 make all 
-Building file: ../main.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
-Finished building: ../main.cpp
- 
-Building target: lab9
-Invoking: GCC C++ Linker
-g++  -o "lab9"  ./main.o   
-Finished building target: lab9
- 
+make: Nothing to be done for 'all'.
 
-12:07:29 Build Finished (took 267ms)
+15:31:38 Build Finished (took 62ms)
 

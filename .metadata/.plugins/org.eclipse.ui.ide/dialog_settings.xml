@@ -21,7 +21,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item value="/home/user/OneDrive/Documents/cpp/UWM/CS337/hwk/prog03" key="OUTSIDE_LOCATION"/>
+		<item value="/home/user/OneDrive/Documents/cpp/UWM/CS337/lab/lab11" key="OUTSIDE_LOCATION"/>
 	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.cdt.ui.wizards.NewCWizard1" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>

@@ -800,3 +800,26 @@ Command-line arguments:  -data /home/user/OneDrive/Documents/cpp/UWM/CS337 -os l
 
 !ENTRY org.eclipse.cdt.core 1 0 2016-03-29 14:05:13.952
 !MESSAGE Indexed 'prog03' (1 sources, 21 headers) in 0.332 sec: 689 declarations; 1,144 references; 0 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.055%)
+!SESSION 2016-04-06 15:33:19.090 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-06 15:33:56.301
+!MESSAGE Indexed 'lab10' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-06 15:34:37.225
+!MESSAGE Indexed 'lab10' (1 sources, 104 headers) in 2.47 sec: 8,381 declarations; 14,626 references; 0 unresolved inclusions; 7 syntax errors; 27 unresolved names (0.12%)
+!SESSION 2016-04-13 15:20:27.147 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-04-13 15:21:31.928
+!MESSAGE Indexed 'lab11' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

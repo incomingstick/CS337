@@ -1,0 +1,21 @@
+/*
+ * intVector.h
+ *
+ *  Created on: Apr 6, 2016
+ *      Author: user
+ */
+
+#ifndef INTVECTOR_H_
+#define INTVECTOR_H_
+
+class intVector {
+private:
+	int count;
+public:
+	intVector(int size = 0);
+	virtual ~intVector();
+	int size() { return count; }
+	void set(int index, int element)
+};
+
+#endif /* INTVECTOR_H_ */

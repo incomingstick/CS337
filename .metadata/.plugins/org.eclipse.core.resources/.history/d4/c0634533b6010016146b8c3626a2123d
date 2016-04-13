@@ -1,0 +1,25 @@
+/*
+ * angle.h
+ *
+ *  Created on: Apr 13, 2016
+ *      Author: user
+ */
+
+#ifndef ANGLE_H_
+#define ANGLE_H_
+
+class Angle {
+private:
+	double degrees;
+public:
+	Angle(); // initialize to zero degrees
+	Angle(double degrees); //assume the argument is in degrees
+	double getD() const; // returns angle in degrees
+	void setD(double); // sets angle
+	bool LessThan(Angle) const; // returns true if host object is
+								// less than the argument
+	bool Equal(Angle) const; // returns true if host object is
+							 // equal to the object
+};
+
+#endif /* ANGLE_H_ */

@@ -1,0 +1,18 @@
+/*
+ * angle.cpp
+ *
+ *  Created on: Apr 13, 2016
+ *      Author: user
+ */
+
+#include "angle.h"
+
+Angle::Angle() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Angle::~Angle() {
+	// TODO Auto-generated destructor stub
+}
+

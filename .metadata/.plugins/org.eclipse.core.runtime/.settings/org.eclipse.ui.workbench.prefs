@@ -1,6 +1,8 @@
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+ACTIVE_HYPERLINK_COLOR=29,83,139
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
 ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
+HYPERLINK_COLOR=42,118,198
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
 RUN_IN_BACKGROUND=true
 eclipse.preferences.version=1

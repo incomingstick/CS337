@@ -1,0 +1,35 @@
+15:31:37 **** Incremental Build of configuration Debug for project lab11 ****
+make all 
+Building file: ../angle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"angle.d" -MT"angle.d" -o "angle.o" "../angle.cpp"
+In file included from ../angle.cpp:8:0:
+../angle.h:24:29: error: 'bool Angle::operator<(Angle, Angle)' must take exactly one argument
+  bool operator<(Angle, Angle);
+                             ^
+../angle.h:25:30: error: 'bool Angle::operator<=(Angle, Angle)' must take exactly one argument
+  bool operator<=(Angle, Angle);
+                              ^
+../angle.h:26:29: error: 'bool Angle::operator>(Angle, Angle)' must take exactly one argument
+  bool operator>(Angle, Angle);
+                             ^
+../angle.h:27:30: error: 'bool Angle::operator>=(Angle, Angle)' must take exactly one argument
+  bool operator>=(Angle, Angle);
+                              ^
+../angle.h:28:30: error: 'bool Angle::operator==(Angle, Angle)' must take exactly one argument
+  bool operator==(Angle, Angle);
+                              ^
+../angle.h:29:30: error: 'bool Angle::operator!=(Angle, Angle)' must take exactly one argument
+  bool operator!=(Angle, Angle);
+                              ^
+../angle.h:30:48: error: 'std::istream& Angle::operator>>(std::istream&, Angle&)' must take exactly one argument
+  std::istream& operator>>(std::istream&, Angle&);
+                                                ^
+../angle.h:31:47: error: 'std::ostream& Angle::operator<<(std::ostream&, Angle)' must take exactly one argument
+subdir.mk:21: recipe for target 'angle.o' failed
+  std::ostream& operator<<(std::ostream&, Angle);
+                                               ^
+make: *** [angle.o] Error 1
+
+15:31:37 Build Finished (took 164ms)
+

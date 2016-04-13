@@ -1,0 +1,17 @@
+/*
+ * angle.h
+ *
+ *  Created on: Apr 13, 2016
+ *      Author: user
+ */
+
+#ifndef ANGLE_H_
+#define ANGLE_H_
+
+class Angle {
+public:
+	Angle();
+	virtual ~Angle();
+};
+
+#endif /* ANGLE_H_ */

@@ -1,0 +1,17 @@
+/*
+ * intVector.h
+ *
+ *  Created on: Apr 6, 2016
+ *      Author: user
+ */
+
+#ifndef INTVECTOR_H_
+#define INTVECTOR_H_
+
+class intVector {
+public:
+	intVector();
+	virtual ~intVector();
+};
+
+#endif /* INTVECTOR_H_ */

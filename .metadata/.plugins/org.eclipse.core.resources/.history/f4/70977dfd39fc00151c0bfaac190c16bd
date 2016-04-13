@@ -1,0 +1,19 @@
+/*
+ * intVector.cpp
+ *
+ *  Created on: Apr 6, 2016
+ *      Author: user
+ */
+
+#include "intVector.h"
+
+intVector::intVector(int size = 0)
+	:count{ count = size } {
+	// TODO Auto-generated constructor stub
+	vector = new int[size];
+}
+
+intVector::~intVector() {
+	// TODO Auto-generated destructor stub
+}
+
